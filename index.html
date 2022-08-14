@@ -1,48 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel = "stylesheet" href="style.css" />
-    <link rel = "stylesheet" href="colour-1.css">
-    <link rel = "stylesheet" hreflang="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My portfolio</title>
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- ===== Main container Start ===== -->
-    <div class="main-container">
-        <!-- ===== Aside Start =====-->
-        <div class="aside">
-            <div class="logo">
-                <a href="#"><span>D</span>yes</a>
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="/" id="navbar__logo"></a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
             </div>
-            <div class="nav-toggler">
-                <span></span>
-            </div>
-            <ul class="nav">
-                <li><a href="#" class ="active"><i class="fa fa-home"></i>Home</a></li>
-                <li><a href="#"><i class="fa fa-user"></i>About</a></li>
-                <li><a href="#"><i class="fa fa-list"></i>Services</a></li>
-                <li><a href="#"><i class="fa fa-briefcase"></i> portfolio</a></li>
-                <li><a href="#"><i class="fa fa-comments"></i>contact</a></li>
+            <ul class="navbar__menu">
+                
+                <li class="navbar__item">
+                    <a href="/" class="navbar__links">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/index.html" class="navbar__links">Dyes</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/" class="navbar__links">Services</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="/" class="button">Hire me.</a>
+                </li>
             </ul>
+            
         </div>
-        <!-- ===== Aside End =====-->
-        <!-- ===== Main content Start =====-->
-        <div class="main">
-            <!-- ===== Home Section Start ===== -->
-            <section class="home section">
-                Home
-            </section>
-            <!-- ===== Home Section End ===== -->
-        </div>
-        <!-- ===== Main content End =====-->
-
-    </div>
-    <!-- ===== Main container Start ===== -->
-
+    </nav>
     <script src="script.js"></script>
-    
 </body>
 </html>
